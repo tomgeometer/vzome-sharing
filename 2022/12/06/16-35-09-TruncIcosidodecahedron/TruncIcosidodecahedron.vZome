@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vzome:vZome xmlns:vzome="http://xml.vzome.com/vZome/4.0.0/" buildNumber="11" field="golden" version="7.1">
+  <EditHistory editNumber="157" lastStickyEdit="-1">
+    <StrutCreation anchor="0 0 0 0 0 0" index="0" len="2 2"/>
+    <StrutCreation anchor="2 2 0 0 0 0" index="11" len="2 2"/>
+    <StrutCreation anchor="0 0 0 0 0 0" index="38" len="2 2"/>
+    <StrutCreation anchor="-1 -2 0 1 1 1" index="7" len="2 2"/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="-1 -3 1 2 2 3" startSegment="-1 -2 0 1 1 1"/>
+    <DeselectAll/>
+    <EndBlock/>
+    <StrutCreation anchor="-1 -3 1 2 2 3" index="10" len="2 2"/>
+    <StrutCreation anchor="-1 -2 2 3 3 5" index="11" len="2 2"/>
+    <SelectManifestation point="0 0 2 4 4 6"/>
+    <StrutCreation anchor="0 0 2 4 4 6" index="0" len="2 2"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="2 2 2 4 4 6"/>
+    <EndBlock/>
+    <StrutCreation anchor="2 2 2 4 4 6" index="26" len="2 2"/>
+    <StrutCreation anchor="3 4 2 3 3 5" index="25" len="2 2"/>
+    <StrutCreation anchor="3 5 1 2 2 3" index="22" len="2 2"/>
+    <DeselectAll/>
+    <StrutCreation anchor="-1 -2 0 1 1 1" dir="yellow" index="5" len="1 1"/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="yellow" index="2" len="1 1"/>
+    <StrutCreation anchor="2 2 0 0 0 0" dir="yellow" index="2" len="1 1"/>
+    <StrutCreation anchor="3 4 0 1 1 1" dir="yellow" index="39" len="1 1"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 -1 -1 2 3"/>
+    <SelectManifestation point="2 2 -1 -1 2 3"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <DeselectAll/>
+    <StrutCreation anchor="0 0 -1 -1 2 3" index="37" len="2 4"/>
+    <StrutCreation anchor="1 1 -2 -3 4 6" index="52" len="2 4"/>
+    <StrutCreation anchor="1 1 -2 -3 4 6" dir="red" index="31" len="1 2"/>
+    <BeginBlock/>
+    <SelectAll originLast="true"/>
+    <SelectManifestation point="1 1 -4 -6 5 8"/>
+    <SelectManifestation point="1 1 -4 -6 5 8"/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <StrutCreation anchor="0 0 0 0 0 0" dir="red" index="1" len="1 2"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 2 3 1 2"/>
+    <SelectManifestation point="0 0 2 3 1 2"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 2 3 1 2"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ -2, -4, 1 ], [ 5, 8, 1 ], [ -3, -5, 1 ] ], [ [ -2, -3, 1 ], [ 4, 7, 1 ], [ -4, -7, 1 ] ], [ [ -2, -3, 1 ], [ 6, 9, 1 ], [ -2, -3, 1 ] ], [ [ -1, -1, 1 ], [ 3, 5, 1 ], [ -3, -5, 1 ] ], [ [ -1, -1, 1 ], [ 4, 6, 1 ], [ -5, -8, 1 ] ], [ [ -1, -1, 1 ], [ 6, 10, 1 ], [ -1, -2, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 2, 3, 1 ], [ -1, -2, 1 ] ], [ [ 1, 1, 1 ], [ 3, 5, 1 ], [ -3, -5, 1 ] ], [ [ 1, 1, 1 ], [ 4, 6, 1 ], [ -5, -8, 1 ] ], [ [ 1, 1, 1 ], [ 6, 10, 1 ], [ -1, -2, 1 ] ], [ [ 2, 3, 1 ], [ 4, 7, 1 ], [ -4, -7, 1 ] ], [ [ 2, 3, 1 ], [ 6, 9, 1 ], [ -2, -3, 1 ] ], [ [ 2, 4, 1 ], [ 5, 8, 1 ], [ -3, -5, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 9,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 11,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 10,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 12,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 13,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 4, 9 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 9, 11 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 4, 1 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 2, 5 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 5, 10 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 10, 12 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 12, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 13, 11 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 3 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 9, 8 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 11, 8 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 3, 8 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 3, 7 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 7, 8 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 7, 6 ],
+    "color" : "#AF0000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 2 3 1 2"/>
+    <EndBlock/>
+    <Delete/>
+    <SelectManifestation endSegment="0 0 2 3 1 2" startSegment="0 0 4 6 0 0"/>
+    <Delete/>
+    <StrutCreation anchor="0 0 4 6 0 0" dir="red" index="31" len="1 1"/>
+    <SelectManifestation endSegment="0 0 2 3 1 2" startSegment="0 0 0 0 0 0"/>
+    <Delete/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 3 4 1 1"/>
+    <SelectAll originLast="true"/>
+    <SelectManifestation point="0 0 3 4 1 1"/>
+    <SelectManifestation point="0 0 3 4 1 1"/>
+    <DeselectAll/>
+    <SelectAll originLast="true"/>
+    <EndBlock/>
+    <Delete/>
+    <ApplyTool copyColors="true" name="bookmark.builtin/ball at origin" selectInputs="true"/>
+    <BeginBlock/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <ImportColoredMeshJson scale="1 0">{
+  "field" : "golden",
+  "vertices" : [ [ [ -2, -4, 1 ], [ 4, 7, 1 ], [ -3, -4, 1 ] ], [ [ -2, -3, 1 ], [ 3, 6, 1 ], [ -4, -6, 1 ] ], [ [ -2, -3, 1 ], [ 5, 8, 1 ], [ -2, -2, 1 ] ], [ [ -1, -1, 1 ], [ 2, 4, 1 ], [ -3, -4, 1 ] ], [ [ -1, -1, 1 ], [ 3, 5, 1 ], [ -5, -7, 1 ] ], [ [ -1, -1, 1 ], [ 5, 9, 1 ], [ -1, -1, 1 ] ], [ [ 0, 0, 1 ], [ 0, 0, 1 ], [ 0, 0, 1 ] ], [ [ 0, 0, 1 ], [ 1, 2, 1 ], [ -1, -1, 1 ] ], [ [ 1, 1, 1 ], [ 2, 4, 1 ], [ -3, -4, 1 ] ], [ [ 1, 1, 1 ], [ 3, 5, 1 ], [ -5, -7, 1 ] ], [ [ 1, 1, 1 ], [ 5, 9, 1 ], [ -1, -1, 1 ] ], [ [ 2, 3, 1 ], [ 3, 6, 1 ], [ -4, -6, 1 ] ], [ [ 2, 3, 1 ], [ 5, 8, 1 ], [ -2, -2, 1 ] ], [ [ 2, 4, 1 ], [ 4, 7, 1 ], [ -3, -4, 1 ] ] ],
+  "balls" : [ {
+    "vertex" : 9,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 11,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 1,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 0,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 2,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 5,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 10,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 12,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 13,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 3,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 8,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 7,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 4,
+    "color" : "#FFFFFF"
+  }, {
+    "vertex" : 6,
+    "color" : "#FFFFFF"
+  } ],
+  "struts" : [ {
+    "vertices" : [ 4, 9 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 9, 11 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 4, 1 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 1, 0 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 0, 2 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 2, 5 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 5, 10 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 10, 12 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 12, 13 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 13, 11 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 1, 3 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 4, 3 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 9, 8 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 11, 8 ],
+    "color" : "#F0A000"
+  }, {
+    "vertices" : [ 3, 8 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 3, 7 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 7, 8 ],
+    "color" : "#007695"
+  }, {
+    "vertices" : [ 7, 6 ],
+    "color" : "#AF0000"
+  } ],
+  "panels" : [ ]
+}
+</ImportColoredMeshJson>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-2 -4 4 7 -3 -4"/>
+    <SelectManifestation point="-2 -3 3 6 -4 -6"/>
+    <SelectManifestation point="-1 -1 3 5 -5 -7"/>
+    <SelectManifestation point="1 1 3 5 -5 -7"/>
+    <SelectManifestation point="2 3 3 6 -4 -6"/>
+    <SelectManifestation point="2 4 4 7 -3 -4"/>
+    <SelectManifestation point="2 3 5 8 -2 -2"/>
+    <SelectManifestation point="1 1 5 9 -1 -1"/>
+    <SelectManifestation point="-1 -1 5 9 -1 -1"/>
+    <SelectManifestation point="-2 -3 5 8 -2 -2"/>
+    <EndBlock/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-3 -6 4 6 -2 -3"/>
+    <SelectManifestation point="-2 -4 4 7 -3 -4"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -7 3 4 -2 -4"/>
+    <SelectManifestation point="-3 -6 4 6 -2 -3"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <SelectManifestation point="-4 -6 2 3 -3 -6"/>
+    <SelectManifestation point="-3 -4 2 4 -4 -7"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 -1 -1 -1 -5 -9"/>
+    <SelectManifestation point="-2 -2 -2 -3 -5 -8"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="-4 -6 2 3 -3 -6"/>
+    <SelectManifestation point="-5 -7 1 1 -3 -5"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <BeginBlock/>
+    <SelectManifestation point="-4 -7 3 4 -2 -4"/>
+    <SelectManifestation point="-5 -8 2 2 -2 -3"/>
+    <EndBlock/>
+    <JoinPoints/>
+    <SelectManifestation endSegment="-5 -7 1 1 -3 -5" startSegment="-4 -6 2 3 -3 -6"/>
+    <ApplyTool copyColors="true" name="icosahedral.builtin/icosahedral around origin" selectInputs="true"/>
+    <BeginBlock/>
+    <DeselectAll/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="0 0 1 2 -1 -1"/>
+    <SelectManifestation point="0 0 1 2 -1 -1"/>
+    <SelectManifestation endSegment="1 1 2 4 -3 -4" startSegment="0 0 1 2 -1 -1"/>
+    <DeselectAll/>
+    <SelectManifestation endSegment="1 1 2 4 -3 -4" startSegment="0 0 1 2 -1 -1"/>
+    <SelectManifestation point="0 0 1 2 -1 -1"/>
+    <SelectManifestation endSegment="0 0 1 2 -1 -1" startSegment="-1 -1 2 4 -3 -4"/>
+    <SelectManifestation endSegment="0 0 0 0 0 0" startSegment="0 0 1 2 -1 -1"/>
+    <SelectManifestation point="0 0 0 0 0 0"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation endSegment="1 1 2 4 -3 -4" startSegment="2 3 3 6 -4 -6"/>
+    <SelectManifestation endSegment="1 1 2 4 -3 -4" startSegment="1 1 3 5 -5 -7"/>
+    <SelectManifestation endSegment="-1 -1 2 4 -3 -4" startSegment="-1 -1 3 5 -5 -7"/>
+    <SelectManifestation endSegment="-1 -1 2 4 -3 -4" startSegment="-2 -3 3 6 -4 -6"/>
+    <SelectManifestation endSegment="1 1 2 4 -3 -4" startSegment="-1 -1 2 4 -3 -4"/>
+    <EndBlock/>
+    <Delete/>
+    <BeginBlock/>
+    <SelectManifestation point="-1 -1 2 4 -3 -4"/>
+    <SelectManifestation point="1 1 2 4 -3 -4"/>
+    <EndBlock/>
+    <Delete/>
+  </EditHistory>
+  <notes/>
+  <sceneModel ambientLight="41,41,41" background="175,200,220">
+    <directionalLight color="235,235,228" x="1.0" y="-1.0" z="-1.0"/>
+    <directionalLight color="228,228,235" x="-1.0" y="0.0" z="0.0"/>
+    <directionalLight color="30,30,30" x="0.0" y="0.0" z="-1.0"/>
+  </sceneModel>
+  <Viewing>
+    <ViewModel distance="168.8278350830078" far="337.6555480957031" near="0.4220692813396454" parallel="false" stereoAngle="0.0" width="75.97247314453125">
+      <LookAtPoint x="0.0" y="0.0" z="0.0"/>
+      <UpDirection x="0.582287609577179" y="-0.1149800643324852" z="0.8048099279403687"/>
+      <LookDirection x="-0.05853608250617981" y="-0.9933080077171326" z="-0.09955544769763947"/>
+    </ViewModel>
+  </Viewing>
+  <SymmetrySystem name="icosahedral" renderingStyle="printable">
+    <Direction color="0,118,149" name="blue"/>
+    <Direction color="0,141,54" name="green"/>
+    <Direction color="154,117,74" name="sand"/>
+    <Direction color="18,73,48" name="spruce"/>
+    <Direction color="175,0,0" name="red"/>
+    <Direction color="255,126,106" name="coral"/>
+    <Direction color="30,30,30" name="black"/>
+    <Direction color="117,0,50" name="maroon"/>
+    <Direction color="230,245,62" name="sulfur"/>
+    <Direction color="240,160,0" name="yellow"/>
+    <Direction color="255,51,143" name="rose"/>
+    <Direction color="18,205,148" name="turquoise"/>
+    <Direction color="116,195,0" name="apple"/>
+    <Direction color="136,37,0" name="cinnamon"/>
+    <Direction color="108,0,198" name="purple"/>
+    <Direction color="220,76,0" name="orange"/>
+    <Direction color="0,0,153" name="navy"/>
+    <Direction color="107,53,26" name="brown"/>
+    <Direction color="175,135,255" name="lavender"/>
+    <Direction color="100,113,0" name="olive"/>
+  </SymmetrySystem>
+  <OtherSymmetries>
+    <SymmetrySystem name="octahedral" renderingStyle="trapezoids">
+      <Direction color="0,118,149" name="blue"/>
+      <Direction color="175,135,255" name="lavender"/>
+      <Direction color="18,205,148" name="turquoise"/>
+      <Direction color="30,30,30" name="black"/>
+      <Direction color="0,141,54" name="green"/>
+      <Direction color="100,113,0" name="olive"/>
+      <Direction color="117,0,50" name="maroon"/>
+      <Direction color="107,53,26" name="brown"/>
+      <Direction color="240,160,0" name="yellow"/>
+      <Direction color="175,0,0" name="red"/>
+      <Direction color="108,0,198" name="purple"/>
+    </SymmetrySystem>
+  </OtherSymmetries>
+  <Tools/>
+</vzome:vZome>
